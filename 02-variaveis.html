@@ -7,18 +7,90 @@
     <script>
         // Declarando uma variavel sem valor
         let x
-        alert(x) // Exibirá undefined
+        //alert(x) // Exibirá undefined
         
         // Atribuindo valor a uma variavel
         x = 5
-        alert(x)
+        //alert(x)
 
         x = 'Tiago'
-        alert(x)
+        //alert(x)
     
         // Declarando uma variavel com Valor inicial
         let y = 8.75
-        alert(y)
+        //alert(y)
+
+        // Declarar Múltiplas variaveis de uma so vez
+        let a = 15, b = 4.5, c = 2
+
+        // Operadores aritimeticos
+
+        //alert(a - b) // Subtração
+        //alert(a * b) // Multiplicação
+        //alert(a / b) // Divisão
+        //alert(a + b) // Soma
+        //alert(a % c) // Resto da divisão inteira (modulo)
+        //alert(a ** c) // Potenciação
+
+        let d = '3' // Uma string que contém um número dentro
+
+        // Se uma string contem dentro dela um numero valido e essa string e usada
+        // em exressoes aritimeticas, o Javascript a convea em numero e fara a
+        // operacao normalmente, na maioria dos casos
+
+        
+        //alert(a - d) // Subtração de um numero e string? ok
+        //alert(a * d) // multiplicacao de numero e string? ok
+        //alert(a / d) // divisao de numero por string? ok
+        //alert(a % d) // modulo da divisao de numero por string?
+        //alert(a ** d) // potenciacao de numero elevado a string?
+        
+        // O sinal + em JS tem duas funcoes:
+        // 1) se todos os seus operandos forem numeros, ele fara a soma
+        // 2) se algum dos seus operandos for string, sera feita uma concatenacao de strings
+        //alert(a + d)           // soma de numero com string?
+
+        // concatenando strings
+        let msg1 = 'Bom'
+        let msg2 = 'Dia'
+        //alert(msg1 + '' + msg2)
+
+        //alert('Teste' + 1 + 2 + 3) // Ocorrera concatenacao (resultado sera teste123)
+
+        let e = 'batata'
+
+        //alert(a - e) // Resultado é NaN = not a number
+        //alert(a * e) // NaN
+        //alert(a / e ) // NaN
+        //alert(a + e) // Resultado é 15batata (concatenacao)
+
+        // TIPOS DE DADOS
+        let teste
+        //alert(typeof teste)  // undefined
+
+        teste = 1000
+        //alert(typeof teste)   // number
+
+        teste = 'Fatec Franca'
+        //alert(typeof teste)    // string
+
+        teste = true
+        //alert(typeof teste)     // boolean
+         
+        teste = 3.1416
+        alert(typeof teste)       // number
+
+
+
+
+
+
+
+
+
+        
+
+    
     </script>
 </head>
 <body>
